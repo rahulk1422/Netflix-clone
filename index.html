@@ -4,10 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
-   
+
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/x-icon" href="img/netFlixFevicon.webp">
-  <title>Netflix India – Watch TV Shows Online, Watch Movies Online</title>
+    <title>Netflix India – Watch TV Shows Online, Watch Movies Online</title>
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
 </head>
 
@@ -25,7 +25,11 @@
                         <option value="">हिन्दी</option>
                     </select>
                 </div>
-                <button class="btn2">Sign In</button>
+                <!-- Sign In Button -->
+                <button class="btn2">
+                    <a href="signup.html" style="text-decoration: none; color: white;">Sign Up</a>
+                </button>
+
             </div>
 
         </nav>
@@ -115,68 +119,68 @@
             <button class="next"><i class="ri-arrow-right-s-line"></i></button>
         </div>
 
-        
-    <!-- Video Containers with Close Button -->
-    <div id="video1" class="video-container" style="display:none;">
-        <button class="close-btn" onclick="closeVideo('video1')">X</button>
-        <video width="320" height="240" controls>
-            <source src="video/animal.mp4" type="video/mp4">
-        </video>
-    </div>
-    <div id="video2" class="video-container" style="display:none;">
-        <button class="close-btn" onclick="closeVideo('video2')">X</button>
-        <video width="320" height="240" controls>
-            <source src="video/ic714.mp4" type="video/mp4">
-        </video>
-    </div>
-    <div id="video3" class="video-container" style="display:none;">
-        <button class="close-btn" onclick="closeVideo('video3')">X</button>
-        <video width="320" height="240" controls>
-            <source src="video/indian2.mp4" type="video/mp4">
-        </video>
-    </div>
-    <div id="video4" class="video-container" style="display:none;">
-        <button class="close-btn" onclick="closeVideo('video4')">X</button>
-        <video width="320" height="240" controls>
-            <source src="video/kalki2.mp4" type="video/mp4">
-        </video>
-    </div>
-    <div id="video5" class="video-container" style="display:none;">
-        <button class="close-btn" onclick="closeVideo('video5')">X</button>
-        <video width="320" height="240" controls>
-            <source src="video/maharaj.mp4" type="video/mp4">
-        </video>
-    </div>
-    <div id="video6" class="video-container" style="display:none;">
-        <button class="close-btn" onclick="closeVideo('video6')">X</button>
-        <video width="320" height="240" controls>
-            <source src="video/sanivaram.mp4" type="video/mp4">
-        </video>
-    </div>
-    <div id="video7" class="video-container" style="display:none;">
-        <button class="close-btn" onclick="closeVideo('video7')">X</button>
-        <video width="320" height="240" controls>
-            <source src="video/sector36.mp4" type="video/mp4">
-        </video>
-    </div>
-    <div id="video8" class="video-container" style="display:none;">
-        <button class="close-btn" onclick="closeVideo('video8')">X</button>
-        <video width="320" height="240" controls>
-            <source src="video/sexlife.mp4" type="video/mp4">
-        </video>
-    </div>
-    <div id="video9" class="video-container" style="display:none;">
-        <button class="close-btn" onclick="closeVideo('video9')">X</button>
-        <video width="320" height="240" controls>
-            <source src="video/TGIK.mp4" type="video/mp4">
-        </video>
-    </div>
-     <div id="video10" class="video-container" style="display:none;">
-        <button class="close-btn" onclick="closeVideo('video10')">X</button>
-        <video width="320" height="240" controls>
-            <source src="video/ulajh.mp4" type="video/mp4">
-        </video>
-    </div>
+
+        <!-- Video Containers with Close Button -->
+        <div id="video1" class="video-container" style="display:none;">
+            <button class="close-btn" onclick="closeVideo('video1')">X</button>
+            <video width="320" height="240" controls>
+                <source src="video/animal.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div id="video2" class="video-container" style="display:none;">
+            <button class="close-btn" onclick="closeVideo('video2')">X</button>
+            <video width="320" height="240" controls>
+                <source src="video/ic714.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div id="video3" class="video-container" style="display:none;">
+            <button class="close-btn" onclick="closeVideo('video3')">X</button>
+            <video width="320" height="240" controls>
+                <source src="video/indian2.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div id="video4" class="video-container" style="display:none;">
+            <button class="close-btn" onclick="closeVideo('video4')">X</button>
+            <video width="320" height="240" controls>
+                <source src="video/kalki2.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div id="video5" class="video-container" style="display:none;">
+            <button class="close-btn" onclick="closeVideo('video5')">X</button>
+            <video width="320" height="240" controls>
+                <source src="video/maharaj.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div id="video6" class="video-container" style="display:none;">
+            <button class="close-btn" onclick="closeVideo('video6')">X</button>
+            <video width="320" height="240" controls>
+                <source src="video/sanivaram.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div id="video7" class="video-container" style="display:none;">
+            <button class="close-btn" onclick="closeVideo('video7')">X</button>
+            <video width="320" height="240" controls>
+                <source src="video/sector36.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div id="video8" class="video-container" style="display:none;">
+            <button class="close-btn" onclick="closeVideo('video8')">X</button>
+            <video width="320" height="240" controls>
+                <source src="video/sexlife.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div id="video9" class="video-container" style="display:none;">
+            <button class="close-btn" onclick="closeVideo('video9')">X</button>
+            <video width="320" height="240" controls>
+                <source src="video/TGIK.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div id="video10" class="video-container" style="display:none;">
+            <button class="close-btn" onclick="closeVideo('video10')">X</button>
+            <video width="320" height="240" controls>
+                <source src="video/ulajh.mp4" type="video/mp4">
+            </video>
+        </div>
         <div class="section-2">
             <h2>More reasons to join</h2>
             <div class="card-sec">
@@ -337,6 +341,7 @@
         </footer>
 
     </div>
+
     <script src="script.js"></script>
 </body>
 
